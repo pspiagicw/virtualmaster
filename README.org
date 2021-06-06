@@ -1,0 +1,16 @@
+* VirtualMaster
+VirtualMaster is a simple bash script which uses /dmenu/ to control virtual machines.
+
+** Dependencies
+- Dmenu
+- VBoxManage(included with virtualbox installation)
+
+** Installation
+Clone this repository , move the virtualmaster script to a directory which is in your PATH variable.
+
+** CreateVM
+Due to complexity of creating a VM , user is incharge of managing a script will would VM with default parameters.
+This script should reside in ~/.config/virtualmaster/createvm.sh.
+An example script is given , you can either modify it or create one from scratch.
+
+
